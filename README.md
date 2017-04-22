@@ -1,5 +1,5 @@
 # Efficient variational Bayesian neural network ensembles for outlier detection
-This repository contains the code for the paper [Efficient variational Bayesian neural network ensembles for outlier detection](https://arxiv.org/abs/1703.06749).
+This repository contains the code for the paper [Efficient variational Bayesian neural network ensembles for outlier detection](https://openreview.net/forum?id=Hy-po5NFx) ([arXiv](https://arxiv.org/abs/1703.06749)).
 
 ## Abstract
 In this work we perform outlier detection using ensembles of neural networks obtained by variational approximation of the posterior in a Bayesian neural network setting. The variational parameters are obtained by sampling from the true posterior by gradient descent. We show our outlier detection results are comparable to those obtained using other efficient ensembling methods.
