@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+MNIST_data
+notMNIST_data
+*.pyc
+*.csv
+*.png
