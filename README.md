@@ -18,5 +18,8 @@ tensorflow-gpu==1.0.1
 ```
 Furthermore, the notMNIST dataset was used from [here](https://github.com/davidflanagan/notMNIST-to-MNIST) and needs to be placed in a `notMNIST_data` directory. Then, the notebooks can be used or viewed as usual. 
 
+## Structure
+The notebooks are organised as `ensembling method_learning rate schedule.ipynb`. Additionally `SampledGauss_Trajectory_Plot.ipynb` shows how to plot the optimization trajectory of a single weight. `Visualization.ipynb` generates the plots used in the paper. `experiment.py` holds helper functions to define the neural network etc. `inferences.py` holds the custom inference classes following the implementations in [Edward](http://edwardlib.org). Additionally to SGLD and *noisy Adam* this class holds their adaptions using weighted samples (as suggested by the original SGLD paper) and code to use regular Adam.
+
 ## Contact
 For discussion, suggestions or questions don't hesitate to contact `n.pawlowski16 at ic.ac.uk`.
